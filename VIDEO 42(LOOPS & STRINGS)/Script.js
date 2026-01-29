@@ -4,11 +4,20 @@
     
 // }
 
-for(let i = 1; i <= 6; i++){
-    if(i == 4){
-        break;
+// for(let i = 1; i <= 6; i++){
+//     if(i == 4){
+//         break;
+//     }
+//     else{
+//         console.log(i);
+//     }
+// }
+
+for(let i = 1; i <= 4; i++){
+    if(i == 3){
+        continue;
     }
-    else{
-        console.log(i);
-    }
+        else{
+            console.log(i);
+        }
 }
