@@ -55,5 +55,10 @@
 // let finalAns = `${op1}&${op2}`;
 // console.log(finalAns);
 
-let str = "Ankit";
-console.log(str.substring(2));
+// let str = "Ankit";
+// console.log(str.substring(2));
+
+// Strings in array
+let sentence = "Hello ji kaise ho sare";
+let words = sentence.split(' ');
+console.log(words);
