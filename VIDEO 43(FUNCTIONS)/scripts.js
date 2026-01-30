@@ -16,7 +16,13 @@
 
 // printCounting();
 
-function printNumber(num){
-    console.log("Printing Number : ", num)
+// function printNumber(num){
+//     console.log("Printing Number : ", num)
+// }
+// printNumber(2);
+
+function getAverage(num1, num2){
+    let avg = (num1 + num2 )/ 2;
+    console.log("Average : ", avg);
 }
-printNumber(2);
+getAverage(1,1);
