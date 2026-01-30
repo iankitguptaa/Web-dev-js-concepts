@@ -36,10 +36,30 @@
 // let ans = getSum(1, 2, 3);
 // console.log(ans);
 
-function getMyName(firstName, lastName){
-    let fullName = firstName + lastName;
-    return fullName;
-}
+// function getMyName(firstName, lastName){
+//     let fullName = firstName + lastName;
+//     return fullName;
+// }
 
-let fullName = getMyName("Ankit ", "Gupta");
-console.log(fullName);
+// let fullName = getMyName("Ankit ", "Gupta");
+// console.log(fullName);
+// let Name = getMyName("Love ", "Babbbaar");
+// console.log(Name);
+
+// function getMulti(a,b){
+//     return a * b;
+// }
+// console.log(getMulti(2,3));
+
+// function getExp(x,y){
+    //     return x**y;
+    // }
+    // console.log(getExp(2,2));
+    
+// Arrow function
+
+let getExp = (x,y) => {
+    let ans = x**y;
+    return ans;
+}
+console.log(getExp(2,10));
