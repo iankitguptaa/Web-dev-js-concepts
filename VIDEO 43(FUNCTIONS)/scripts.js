@@ -8,10 +8,15 @@
 // function use - function call
 // sayMyName();
 
-function printCounting(){
-    for(let i = 1; i <= 100; i++){
-        console.log(i);
-    }
-}
+// function printCounting(){
+//     for(let i = 1; i <= 100; i++){
+//         console.log(i);
+//     }
+// }
 
-printCounting();
+// printCounting();
+
+function printNumber(num){
+    console.log("Printing Number : ", num)
+}
+printNumber(2);
