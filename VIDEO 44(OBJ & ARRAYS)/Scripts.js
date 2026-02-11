@@ -17,8 +17,10 @@
 
 // Creation of Arrays
 let arr = [1,2,3,4,5];
-console.log(arr);
+// console.log(arr);
 let brr = new Array('Ankit',1,true);
+// console.log(brr);
+// console.log(typeof(arr));
+// console.log(typeof(brr));
+brr.shift();
 console.log(brr);
-console.log(typeof(arr));
-console.log(typeof(brr));
