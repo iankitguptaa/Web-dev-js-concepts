@@ -16,12 +16,30 @@
 
 
 // Creation of Arrays
-let arr = [1,2,3,4,5];
-// console.log(arr);
-let brr = new Array('Ankit',1,true);
+// let arr = [1,2,3,4,5];
+// // console.log(arr);
+// let brr = new Array('Ankit',1,true);
 // console.log(brr[0]);
 // Built in methods
 // push pop shift unshift slice splice map filter reduce
 // brr.push('Gupta');
-brr.pop();
-console.log(brr);
+// brr.pop();
+// console.log(brr);
+
+
+// let arr = [10,20,30];
+// let ansArrary = arr.map((number) => {
+//     return number*number;
+// })
+// console.log(ansArrary);
+
+let arr = [10,21,20,14,25,27];
+let evenArray = arr.filter((number) => {
+    if(number % 2 == 0){
+        return true;
+    }else{
+        return false;
+    }
+})
+
+console.log(evenArray);
