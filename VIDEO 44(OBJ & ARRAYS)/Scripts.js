@@ -19,8 +19,9 @@
 let arr = [1,2,3,4,5];
 // console.log(arr);
 let brr = new Array('Ankit',1,true);
-// console.log(brr);
-// console.log(typeof(arr));
-// console.log(typeof(brr));
-brr.shift();
+// console.log(brr[0]);
+// Built in methods
+// push pop shift unshift slice splice map filter reduce
+// brr.push('Gupta');
+brr.pop();
 console.log(brr);
